@@ -97,9 +97,8 @@
 - (void)nestTableViewDidScroll:(UIScrollView *)scrollView{
     CGFloat offsetY =scrollView.contentOffset.y;
     NSLog(@"==y==%@",@(offsetY));
-    CGFloat y =  offsetY + 100;
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
-    CGFloat height = 100;
+    CGFloat height = 150;
     if (offsetY < 0) {
         CGFloat factor = ((ABS(offsetY)+height)*width)/height;
         CGRect frame = CGRectMake(-(factor-width)/2, offsetY, factor, height+ABS(offsetY));
@@ -130,7 +129,7 @@
 
 - (UIImageView *)imageView{
     if (!_imageView) {
-        _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 100)];
+        _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 150)];
         _imageView.image = [UIImage imageNamed:@"bg_s"];
         _imageView.layer.anchorPoint = CGPointMake(0.5, 1);
     }

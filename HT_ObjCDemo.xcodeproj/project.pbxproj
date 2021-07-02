@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF17F72F268F1D5C00871C13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F72E268F1D5C00871C13 /* AppDelegate.m */; };
+		DF17F732268F1D5C00871C13 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F731268F1D5C00871C13 /* SceneDelegate.m */; };
+		DF17F735268F1D5C00871C13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F734268F1D5C00871C13 /* ViewController.m */; };
+		DF17F738268F1D5C00871C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF17F736268F1D5C00871C13 /* Main.storyboard */; };
+		DF17F73A268F1D5D00871C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF17F739268F1D5D00871C13 /* Assets.xcassets */; };
+		DF17F73D268F1D5D00871C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF17F73B268F1D5D00871C13 /* LaunchScreen.storyboard */; };
+		DF17F740268F1D5D00871C13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F73F268F1D5D00871C13 /* main.m */; };
 		DF5F2B672599DEFA00FD6E1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F2B662599DEFA00FD6E1C /* AppDelegate.m */; };
 		DF5F2B6A2599DEFA00FD6E1C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F2B692599DEFA00FD6E1C /* SceneDelegate.m */; };
 		DF5F2B6D2599DEFA00FD6E1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F2B6C2599DEFA00FD6E1C /* ViewController.m */; };
@@ -32,6 +39,22 @@
 		DF7E5E2526647AF600234E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7E5E2326647AF600234E8B /* LaunchScreen.storyboard */; };
 		DF7E5E2826647AF600234E8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E5E2726647AF600234E8B /* main.m */; };
 		DF7E5E692665CEBA00234E8B /* MyContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E5E662665CEBA00234E8B /* MyContainerView.m */; };
+		DF958548266F609400181062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF958547266F609400181062 /* AppDelegate.m */; };
+		DF95854B266F609400181062 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF95854A266F609400181062 /* SceneDelegate.m */; };
+		DF95854E266F609400181062 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF95854D266F609400181062 /* ViewController.m */; };
+		DF958551266F609400181062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF95854F266F609400181062 /* Main.storyboard */; };
+		DF958553266F609500181062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF958552266F609500181062 /* Assets.xcassets */; };
+		DF958556266F609500181062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF958554266F609500181062 /* LaunchScreen.storyboard */; };
+		DF958559266F609500181062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF958558266F609500181062 /* main.m */; };
+		DF958565266F60BF00181062 /* MyThread.m in Sources */ = {isa = PBXBuildFile; fileRef = DF958564266F60BF00181062 /* MyThread.m */; };
+		DF95856E266F676700181062 /* SectondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF95856D266F676700181062 /* SectondViewController.m */; };
+		DF95857D2670503800181062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF95857C2670503800181062 /* AppDelegate.m */; };
+		DF9585802670503800181062 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF95857F2670503800181062 /* SceneDelegate.m */; };
+		DF9585832670503800181062 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9585822670503800181062 /* ViewController.m */; };
+		DF9585862670503800181062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9585842670503800181062 /* Main.storyboard */; };
+		DF9585882670503900181062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9585872670503900181062 /* Assets.xcassets */; };
+		DF95858B2670503900181062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9585892670503900181062 /* LaunchScreen.storyboard */; };
+		DF95858E2670503900181062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF95858D2670503900181062 /* main.m */; };
 		DFA9C01A2624339B005ACFB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9C0192624339B005ACFB1 /* AppDelegate.m */; };
 		DFA9C01D2624339B005ACFB1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9C01C2624339B005ACFB1 /* SceneDelegate.m */; };
 		DFA9C0202624339B005ACFB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9C01F2624339B005ACFB1 /* ViewController.m */; };
@@ -67,6 +90,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF17F72B268F1D5C00871C13 /* 电影院选座.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "电影院选座.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF17F72D268F1D5C00871C13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF17F72E268F1D5C00871C13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF17F730268F1D5C00871C13 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DF17F731268F1D5C00871C13 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DF17F733268F1D5C00871C13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF17F734268F1D5C00871C13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF17F737268F1D5C00871C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF17F739268F1D5D00871C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF17F73C268F1D5D00871C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF17F73E268F1D5D00871C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF17F73F268F1D5D00871C13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF5F2B622599DEFA00FD6E1C /* HT_ObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HT_ObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5F2B652599DEFA00FD6E1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF5F2B662599DEFA00FD6E1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +147,34 @@
 		DF7E5E2726647AF600234E8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF7E5E632665CEBA00234E8B /* MyContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyContainerView.h; sourceTree = "<group>"; };
 		DF7E5E662665CEBA00234E8B /* MyContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyContainerView.m; sourceTree = "<group>"; };
+		DF958544266F609400181062 /* Runloop线程常驻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runloop线程常驻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF958546266F609400181062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF958547266F609400181062 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF958549266F609400181062 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DF95854A266F609400181062 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DF95854C266F609400181062 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF95854D266F609400181062 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF958550266F609400181062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF958552266F609500181062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF958555266F609500181062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF958557266F609500181062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF958558266F609500181062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF958563266F60BF00181062 /* MyThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyThread.h; sourceTree = "<group>"; };
+		DF958564266F60BF00181062 /* MyThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyThread.m; sourceTree = "<group>"; };
+		DF95856C266F676700181062 /* SectondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectondViewController.h; sourceTree = "<group>"; };
+		DF95856D266F676700181062 /* SectondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectondViewController.m; sourceTree = "<group>"; };
+		DF9585792670503800181062 /* 深复制与浅复制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "深复制与浅复制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF95857B2670503800181062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF95857C2670503800181062 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF95857E2670503800181062 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DF95857F2670503800181062 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DF9585812670503800181062 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF9585822670503800181062 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF9585852670503800181062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF9585872670503900181062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF95858A2670503900181062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF95858C2670503900181062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF95858D2670503900181062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFA9C0162624339B005ACFB1 /* 谓词Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "谓词Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA9C0182624339B005ACFB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFA9C0192624339B005ACFB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,6 +192,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DF17F728268F1D5C00871C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF5F2B5F2599DEFA00FD6E1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,6 +227,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF958541266F609400181062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9585762670503800181062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DFA9C0132624339B005ACFB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,6 +251,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF17F72C268F1D5C00871C13 /* 电影院选座 */ = {
+			isa = PBXGroup;
+			children = (
+				DF17F72D268F1D5C00871C13 /* AppDelegate.h */,
+				DF17F72E268F1D5C00871C13 /* AppDelegate.m */,
+				DF17F730268F1D5C00871C13 /* SceneDelegate.h */,
+				DF17F731268F1D5C00871C13 /* SceneDelegate.m */,
+				DF17F733268F1D5C00871C13 /* ViewController.h */,
+				DF17F734268F1D5C00871C13 /* ViewController.m */,
+				DF17F736268F1D5C00871C13 /* Main.storyboard */,
+				DF17F739268F1D5D00871C13 /* Assets.xcassets */,
+				DF17F73B268F1D5D00871C13 /* LaunchScreen.storyboard */,
+				DF17F73E268F1D5D00871C13 /* Info.plist */,
+				DF17F73F268F1D5D00871C13 /* main.m */,
+			);
+			path = "电影院选座";
+			sourceTree = "<group>";
+		};
 		DF5F2B592599DEFA00FD6E1C = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +277,9 @@
 				DF64D0ED25E8C96C0061459E /* 绘图 */,
 				DFA9C0172624339B005ACFB1 /* 谓词Demo */,
 				DF7E5E1426647AF500234E8B /* 嵌套悬浮 */,
+				DF958545266F609400181062 /* Runloop线程常驻 */,
+				DF95857A2670503800181062 /* 深复制与浅复制 */,
+				DF17F72C268F1D5C00871C13 /* 电影院选座 */,
 				DF5F2B632599DEFA00FD6E1C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -187,6 +292,9 @@
 				DF64D0EC25E8C96C0061459E /* 绘图.app */,
 				DFA9C0162624339B005ACFB1 /* 谓词Demo.app */,
 				DF7E5E1326647AF500234E8B /* 嵌套悬浮.app */,
+				DF958544266F609400181062 /* Runloop线程常驻.app */,
+				DF9585792670503800181062 /* 深复制与浅复制.app */,
+				DF17F72B268F1D5C00871C13 /* 电影院选座.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +376,46 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DF958545266F609400181062 /* Runloop线程常驻 */ = {
+			isa = PBXGroup;
+			children = (
+				DF958546266F609400181062 /* AppDelegate.h */,
+				DF958547266F609400181062 /* AppDelegate.m */,
+				DF958549266F609400181062 /* SceneDelegate.h */,
+				DF95854A266F609400181062 /* SceneDelegate.m */,
+				DF95854C266F609400181062 /* ViewController.h */,
+				DF95854D266F609400181062 /* ViewController.m */,
+				DF95854F266F609400181062 /* Main.storyboard */,
+				DF958552266F609500181062 /* Assets.xcassets */,
+				DF958554266F609500181062 /* LaunchScreen.storyboard */,
+				DF958557266F609500181062 /* Info.plist */,
+				DF958558266F609500181062 /* main.m */,
+				DF958563266F60BF00181062 /* MyThread.h */,
+				DF958564266F60BF00181062 /* MyThread.m */,
+				DF95856C266F676700181062 /* SectondViewController.h */,
+				DF95856D266F676700181062 /* SectondViewController.m */,
+			);
+			path = "Runloop线程常驻";
+			sourceTree = "<group>";
+		};
+		DF95857A2670503800181062 /* 深复制与浅复制 */ = {
+			isa = PBXGroup;
+			children = (
+				DF95857B2670503800181062 /* AppDelegate.h */,
+				DF95857C2670503800181062 /* AppDelegate.m */,
+				DF95857E2670503800181062 /* SceneDelegate.h */,
+				DF95857F2670503800181062 /* SceneDelegate.m */,
+				DF9585812670503800181062 /* ViewController.h */,
+				DF9585822670503800181062 /* ViewController.m */,
+				DF9585842670503800181062 /* Main.storyboard */,
+				DF9585872670503900181062 /* Assets.xcassets */,
+				DF9585892670503900181062 /* LaunchScreen.storyboard */,
+				DF95858C2670503900181062 /* Info.plist */,
+				DF95858D2670503900181062 /* main.m */,
+			);
+			path = "深复制与浅复制";
+			sourceTree = "<group>";
+		};
 		DFA9C0172624339B005ACFB1 /* 谓词Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +447,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DF17F72A268F1D5C00871C13 /* 电影院选座 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF17F743268F1D5D00871C13 /* Build configuration list for PBXNativeTarget "电影院选座" */;
+			buildPhases = (
+				DF17F727268F1D5C00871C13 /* Sources */,
+				DF17F728268F1D5C00871C13 /* Frameworks */,
+				DF17F729268F1D5C00871C13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "电影院选座";
+			productName = "电影院选座";
+			productReference = DF17F72B268F1D5C00871C13 /* 电影院选座.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DF5F2B612599DEFA00FD6E1C /* HT_ObjCDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF5F2B7B2599DEFC00FD6E1C /* Build configuration list for PBXNativeTarget "HT_ObjCDemo" */;
@@ -369,6 +534,40 @@
 			productReference = DF7E5E1326647AF500234E8B /* 嵌套悬浮.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DF958543266F609400181062 /* Runloop线程常驻 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF95855C266F609500181062 /* Build configuration list for PBXNativeTarget "Runloop线程常驻" */;
+			buildPhases = (
+				DF958540266F609400181062 /* Sources */,
+				DF958541266F609400181062 /* Frameworks */,
+				DF958542266F609400181062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Runloop线程常驻";
+			productName = "Runloop线程常驻";
+			productReference = DF958544266F609400181062 /* Runloop线程常驻.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF9585782670503800181062 /* 深复制与浅复制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF95858F2670503900181062 /* Build configuration list for PBXNativeTarget "深复制与浅复制" */;
+			buildPhases = (
+				DF9585752670503800181062 /* Sources */,
+				DF9585762670503800181062 /* Frameworks */,
+				DF9585772670503800181062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "深复制与浅复制";
+			productName = "深复制与浅复制";
+			productReference = DF9585792670503800181062 /* 深复制与浅复制.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DFA9C0152624339B005ACFB1 /* 谓词Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFA9C02E2624339C005ACFB1 /* Build configuration list for PBXNativeTarget "谓词Demo" */;
@@ -394,6 +593,9 @@
 			attributes = {
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					DF17F72A268F1D5C00871C13 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					DF5F2B612599DEFA00FD6E1C = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -404,6 +606,12 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					DF7E5E1226647AF500234E8B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DF958543266F609400181062 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DF9585782670503800181062 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 					DFA9C0152624339B005ACFB1 = {
@@ -429,11 +637,24 @@
 				DF64D0EB25E8C96C0061459E /* 绘图 */,
 				DFA9C0152624339B005ACFB1 /* 谓词Demo */,
 				DF7E5E1226647AF500234E8B /* 嵌套悬浮 */,
+				DF958543266F609400181062 /* Runloop线程常驻 */,
+				DF9585782670503800181062 /* 深复制与浅复制 */,
+				DF17F72A268F1D5C00871C13 /* 电影院选座 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DF17F729268F1D5C00871C13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF17F73D268F1D5D00871C13 /* LaunchScreen.storyboard in Resources */,
+				DF17F73A268F1D5D00871C13 /* Assets.xcassets in Resources */,
+				DF17F738268F1D5C00871C13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF5F2B602599DEFA00FD6E1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,6 +692,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF958542266F609400181062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF958556266F609500181062 /* LaunchScreen.storyboard in Resources */,
+				DF958553266F609500181062 /* Assets.xcassets in Resources */,
+				DF958551266F609400181062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9585772670503800181062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF95858B2670503900181062 /* LaunchScreen.storyboard in Resources */,
+				DF9585882670503900181062 /* Assets.xcassets in Resources */,
+				DF9585862670503800181062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DFA9C0142624339B005ACFB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -484,6 +725,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DF17F727268F1D5C00871C13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF17F735268F1D5C00871C13 /* ViewController.m in Sources */,
+				DF17F72F268F1D5C00871C13 /* AppDelegate.m in Sources */,
+				DF17F740268F1D5D00871C13 /* main.m in Sources */,
+				DF17F732268F1D5C00871C13 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF5F2B5E2599DEFA00FD6E1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -527,6 +779,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF958540266F609400181062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF95854E266F609400181062 /* ViewController.m in Sources */,
+				DF958548266F609400181062 /* AppDelegate.m in Sources */,
+				DF958559266F609500181062 /* main.m in Sources */,
+				DF95856E266F676700181062 /* SectondViewController.m in Sources */,
+				DF958565266F60BF00181062 /* MyThread.m in Sources */,
+				DF95854B266F609400181062 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9585752670503800181062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9585832670503800181062 /* ViewController.m in Sources */,
+				DF95857D2670503800181062 /* AppDelegate.m in Sources */,
+				DF95858E2670503900181062 /* main.m in Sources */,
+				DF9585802670503800181062 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DFA9C0122624339B005ACFB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -550,6 +826,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DF17F736268F1D5C00871C13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF17F737268F1D5C00871C13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF17F73B268F1D5D00871C13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF17F73C268F1D5D00871C13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		DF5F2B6E2599DEFA00FD6E1C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -598,6 +890,38 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		DF95854F266F609400181062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF958550266F609400181062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF958554266F609500181062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF958555266F609500181062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF9585842670503800181062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF9585852670503800181062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF9585892670503900181062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF95858A2670503900181062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		DFA9C0212624339B005ACFB1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -617,6 +941,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DF17F741268F1D5D00871C13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 475QH33KPT;
+				INFOPLIST_FILE = "电影院选座/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF17F742268F1D5D00871C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 475QH33KPT;
+				INFOPLIST_FILE = "电影院选座/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		DF5F2B792599DEFC00FD6E1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -883,6 +1245,82 @@
 			};
 			name = Release;
 		};
+		DF95855A266F609500181062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 475QH33KPT;
+				INFOPLIST_FILE = "Runloop线程常驻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.Runloop----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF95855B266F609500181062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 475QH33KPT;
+				INFOPLIST_FILE = "Runloop线程常驻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.Runloop----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF9585902670503900181062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 475QH33KPT;
+				INFOPLIST_FILE = "深复制与浅复制/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF9585912670503900181062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 475QH33KPT;
+				INFOPLIST_FILE = "深复制与浅复制/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		DFA9C02C2624339C005ACFB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -924,6 +1362,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DF17F743268F1D5D00871C13 /* Build configuration list for PBXNativeTarget "电影院选座" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF17F741268F1D5D00871C13 /* Debug */,
+				DF17F742268F1D5D00871C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DF5F2B5D2599DEFA00FD6E1C /* Build configuration list for PBXProject "HT_ObjCDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -965,6 +1412,24 @@
 			buildConfigurations = (
 				DF7E5E2926647AF600234E8B /* Debug */,
 				DF7E5E2A26647AF600234E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF95855C266F609500181062 /* Build configuration list for PBXNativeTarget "Runloop线程常驻" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF95855A266F609500181062 /* Debug */,
+				DF95855B266F609500181062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF95858F2670503900181062 /* Build configuration list for PBXNativeTarget "深复制与浅复制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF9585902670503900181062 /* Debug */,
+				DF9585912670503900181062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
