@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E73099E866789AAA4190369 /* Pods_notifycation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BD98AF01C6B55D16211D1E /* Pods_notifycation.framework */; };
+		3A6736DCF38A7C934A31EA81 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F18F45F85AEA11D4A1158F /* Pods______.framework */; };
+		A873627A9BD342186ABCDFD2 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7B425051A3813F98E918A0 /* Pods_____.framework */; };
+		BC9B4A3A5C814F77045BAD5E /* Pods________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B16BD3C83598A4DE6BF321 /* Pods________.framework */; };
+		CFBC6865534B2B56EFBCDC6D /* Pods___.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1293A58158C2D1A6445E9439 /* Pods___.framework */; };
+		D0A683844508B117BF48B5D8 /* Pods_HT_ObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86C85C95E2AC6A5F3F8123F /* Pods_HT_ObjCDemo.framework */; };
+		D64D217AE17E24CA9372CCD8 /* Pods_Runloop____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC7F68975FDFFAC2FECB508 /* Pods_Runloop____.framework */; };
 		DF17F72F268F1D5C00871C13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F72E268F1D5C00871C13 /* AppDelegate.m */; };
 		DF17F732268F1D5C00871C13 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F731268F1D5C00871C13 /* SceneDelegate.m */; };
 		DF17F735268F1D5C00871C13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F734268F1D5C00871C13 /* ViewController.m */; };
@@ -39,6 +46,24 @@
 		DF7E5E2526647AF600234E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7E5E2326647AF600234E8B /* LaunchScreen.storyboard */; };
 		DF7E5E2826647AF600234E8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E5E2726647AF600234E8B /* main.m */; };
 		DF7E5E692665CEBA00234E8B /* MyContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E5E662665CEBA00234E8B /* MyContainerView.m */; };
+		DF8AF537269EAE6200CC6F4A /* seats 0.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF8AF532269EAE6200CC6F4A /* seats 0.plist */; };
+		DF8AF538269EAE6200CC6F4A /* seats 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF8AF533269EAE6200CC6F4A /* seats 2.plist */; };
+		DF8AF539269EAE6200CC6F4A /* seats 4.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF8AF534269EAE6200CC6F4A /* seats 4.plist */; };
+		DF8AF53A269EAE6200CC6F4A /* seats 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF8AF535269EAE6200CC6F4A /* seats 3.plist */; };
+		DF8AF53B269EAE6200CC6F4A /* seats 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF8AF536269EAE6200CC6F4A /* seats 1.plist */; };
+		DF8AF549269EAE7800CC6F4A /* ZFSeatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF547269EAE7800CC6F4A /* ZFSeatModel.m */; };
+		DF8AF54A269EAE7800CC6F4A /* ZFSeatsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF548269EAE7800CC6F4A /* ZFSeatsModel.m */; };
+		DF8AF567269EAE8000CC6F4A /* ZFSeatSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF555269EAE8000CC6F4A /* ZFSeatSelectionView.m */; };
+		DF8AF568269EAE8000CC6F4A /* ZFRowIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF556269EAE8000CC6F4A /* ZFRowIndexView.m */; };
+		DF8AF569269EAE8000CC6F4A /* ZFSeatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF557269EAE8000CC6F4A /* ZFSeatButton.m */; };
+		DF8AF56A269EAE8000CC6F4A /* ZFSeatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF55A269EAE8000CC6F4A /* ZFSeatsView.m */; };
+		DF8AF56B269EAE8000CC6F4A /* ZFAppLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF55B269EAE8000CC6F4A /* ZFAppLogoView.m */; };
+		DF8AF56C269EAE8000CC6F4A /* ZFCenterLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF55E269EAE8000CC6F4A /* ZFCenterLineView.m */; };
+		DF8AF56D269EAE8000CC6F4A /* ZFSeatSelectionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF562269EAE8000CC6F4A /* ZFSeatSelectionTool.m */; };
+		DF8AF56E269EAE8000CC6F4A /* ZFIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF563269EAE8000CC6F4A /* ZFIndicatorView.m */; };
+		DF8AF56F269EAE8000CC6F4A /* ZFHallLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF566269EAE8000CC6F4A /* ZFHallLogoView.m */; };
+		DF8AF57A269EAE9900CC6F4A /* ZFSeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF578269EAE9800CC6F4A /* ZFSeatViewController.m */; };
+		DF8AF585269EB1F100CC6F4A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8AF584269EB1F100CC6F4A /* UIView+Extension.m */; };
 		DF958548266F609400181062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF958547266F609400181062 /* AppDelegate.m */; };
 		DF95854B266F609400181062 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF95854A266F609400181062 /* SceneDelegate.m */; };
 		DF95854E266F609400181062 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF95854D266F609400181062 /* ViewController.m */; };
@@ -63,6 +88,13 @@
 		DFA9C0282624339C005ACFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA9C0262624339C005ACFB1 /* LaunchScreen.storyboard */; };
 		DFA9C02B2624339C005ACFB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9C02A2624339C005ACFB1 /* main.m */; };
 		DFA9C036262433CF005ACFB1 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9C035262433CF005ACFB1 /* TestModel.m */; };
+		DFCD660426CA40CB00C4D673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCD660326CA40CB00C4D673 /* AppDelegate.m */; };
+		DFCD660726CA40CB00C4D673 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCD660626CA40CB00C4D673 /* SceneDelegate.m */; };
+		DFCD660A26CA40CB00C4D673 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCD660926CA40CB00C4D673 /* ViewController.m */; };
+		DFCD660D26CA40CB00C4D673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCD660B26CA40CB00C4D673 /* Main.storyboard */; };
+		DFCD660F26CA40CC00C4D673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCD660E26CA40CC00C4D673 /* Assets.xcassets */; };
+		DFCD661226CA40CC00C4D673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCD661026CA40CC00C4D673 /* LaunchScreen.storyboard */; };
+		DFCD661526CA40CC00C4D673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCD661426CA40CC00C4D673 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +122,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1293A58158C2D1A6445E9439 /* Pods___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		140AAA6D986B31CCCE23745C /* Pods-电影院选座.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-电影院选座.release.xcconfig"; path = "Target Support Files/Pods-电影院选座/Pods-电影院选座.release.xcconfig"; sourceTree = "<group>"; };
+		2C46F06AD49520B2ED1BFC43 /* Pods-HT_ObjCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HT_ObjCDemo.release.xcconfig"; path = "Target Support Files/Pods-HT_ObjCDemo/Pods-HT_ObjCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		32F926D89F6B3588212C3B10 /* Pods-notifycation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notifycation.release.xcconfig"; path = "Target Support Files/Pods-notifycation/Pods-notifycation.release.xcconfig"; sourceTree = "<group>"; };
+		393EE419A7AEF920C7A03551 /* Pods-HT_ObjCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HT_ObjCDemo.debug.xcconfig"; path = "Target Support Files/Pods-HT_ObjCDemo/Pods-HT_ObjCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3B76D5AEAA11A2C0C1964446 /* Pods-电影院选座.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-电影院选座.debug.xcconfig"; path = "Target Support Files/Pods-电影院选座/Pods-电影院选座.debug.xcconfig"; sourceTree = "<group>"; };
+		421786CD6E87050CD2B2D787 /* Pods-绘图.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-绘图.release.xcconfig"; path = "Target Support Files/Pods-绘图/Pods-绘图.release.xcconfig"; sourceTree = "<group>"; };
+		4ECA79A3DC35AE2A594064CA /* Pods-嵌套悬浮.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-嵌套悬浮.debug.xcconfig"; path = "Target Support Files/Pods-嵌套悬浮/Pods-嵌套悬浮.debug.xcconfig"; sourceTree = "<group>"; };
+		54DE3D125BD3FA3E90074436 /* Pods-notifycation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notifycation.debug.xcconfig"; path = "Target Support Files/Pods-notifycation/Pods-notifycation.debug.xcconfig"; sourceTree = "<group>"; };
+		5BEA1C3329859B41B1C4BAB6 /* Pods-深复制与浅复制.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-深复制与浅复制.debug.xcconfig"; path = "Target Support Files/Pods-深复制与浅复制/Pods-深复制与浅复制.debug.xcconfig"; sourceTree = "<group>"; };
+		61BD98AF01C6B55D16211D1E /* Pods_notifycation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notifycation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		698A24477763D55091987C93 /* Pods-谓词Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-谓词Demo.debug.xcconfig"; path = "Target Support Files/Pods-谓词Demo/Pods-谓词Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		6E1128DE7390BA84F587F75C /* Pods-谓词Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-谓词Demo.release.xcconfig"; path = "Target Support Files/Pods-谓词Demo/Pods-谓词Demo.release.xcconfig"; sourceTree = "<group>"; };
+		75F18F45F85AEA11D4A1158F /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7B425051A3813F98E918A0 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A031977162C27B0999A5BCD6 /* Pods___Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A192A86AD92DE610A44637BE /* Pods-嵌套悬浮.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-嵌套悬浮.release.xcconfig"; path = "Target Support Files/Pods-嵌套悬浮/Pods-嵌套悬浮.release.xcconfig"; sourceTree = "<group>"; };
+		A76EDA74015C25D114B583E0 /* Pods-深复制与浅复制.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-深复制与浅复制.release.xcconfig"; path = "Target Support Files/Pods-深复制与浅复制/Pods-深复制与浅复制.release.xcconfig"; sourceTree = "<group>"; };
+		BA50421F5947BB749F9A1E92 /* Pods-绘图.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-绘图.debug.xcconfig"; path = "Target Support Files/Pods-绘图/Pods-绘图.debug.xcconfig"; sourceTree = "<group>"; };
+		C8B16BD3C83598A4DE6BF321 /* Pods________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95F0B1C17E9425C81EF24DD /* Pods-Runloop线程常驻.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runloop线程常驻.release.xcconfig"; path = "Target Support Files/Pods-Runloop线程常驻/Pods-Runloop线程常驻.release.xcconfig"; sourceTree = "<group>"; };
 		DF17F72B268F1D5C00871C13 /* 电影院选座.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "电影院选座.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF17F72D268F1D5C00871C13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF17F72E268F1D5C00871C13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -147,6 +200,38 @@
 		DF7E5E2726647AF600234E8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF7E5E632665CEBA00234E8B /* MyContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyContainerView.h; sourceTree = "<group>"; };
 		DF7E5E662665CEBA00234E8B /* MyContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyContainerView.m; sourceTree = "<group>"; };
+		DF8AF532269EAE6200CC6F4A /* seats 0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "seats 0.plist"; sourceTree = "<group>"; };
+		DF8AF533269EAE6200CC6F4A /* seats 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "seats 2.plist"; sourceTree = "<group>"; };
+		DF8AF534269EAE6200CC6F4A /* seats 4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "seats 4.plist"; sourceTree = "<group>"; };
+		DF8AF535269EAE6200CC6F4A /* seats 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "seats 3.plist"; sourceTree = "<group>"; };
+		DF8AF536269EAE6200CC6F4A /* seats 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "seats 1.plist"; sourceTree = "<group>"; };
+		DF8AF545269EAE7800CC6F4A /* ZFSeatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatModel.h; sourceTree = "<group>"; };
+		DF8AF546269EAE7800CC6F4A /* ZFSeatsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatsModel.h; sourceTree = "<group>"; };
+		DF8AF547269EAE7800CC6F4A /* ZFSeatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatModel.m; sourceTree = "<group>"; };
+		DF8AF548269EAE7800CC6F4A /* ZFSeatsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatsModel.m; sourceTree = "<group>"; };
+		DF8AF554269EAE8000CC6F4A /* ZFCenterLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCenterLineView.h; sourceTree = "<group>"; };
+		DF8AF555269EAE8000CC6F4A /* ZFSeatSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatSelectionView.m; sourceTree = "<group>"; };
+		DF8AF556269EAE8000CC6F4A /* ZFRowIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFRowIndexView.m; sourceTree = "<group>"; };
+		DF8AF557269EAE8000CC6F4A /* ZFSeatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatButton.m; sourceTree = "<group>"; };
+		DF8AF558269EAE8000CC6F4A /* ZFSeatSelectionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatSelectionConfig.h; sourceTree = "<group>"; };
+		DF8AF559269EAE8000CC6F4A /* ZFHallLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFHallLogoView.h; sourceTree = "<group>"; };
+		DF8AF55A269EAE8000CC6F4A /* ZFSeatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatsView.m; sourceTree = "<group>"; };
+		DF8AF55B269EAE8000CC6F4A /* ZFAppLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAppLogoView.m; sourceTree = "<group>"; };
+		DF8AF55C269EAE8000CC6F4A /* ZFIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFIndicatorView.h; sourceTree = "<group>"; };
+		DF8AF55D269EAE8000CC6F4A /* ZFSeatSelectionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatSelectionTool.h; sourceTree = "<group>"; };
+		DF8AF55E269EAE8000CC6F4A /* ZFCenterLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCenterLineView.m; sourceTree = "<group>"; };
+		DF8AF55F269EAE8000CC6F4A /* ZFRowIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFRowIndexView.h; sourceTree = "<group>"; };
+		DF8AF560269EAE8000CC6F4A /* ZFSeatSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatSelectionView.h; sourceTree = "<group>"; };
+		DF8AF561269EAE8000CC6F4A /* ZFSeatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatButton.h; sourceTree = "<group>"; };
+		DF8AF562269EAE8000CC6F4A /* ZFSeatSelectionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatSelectionTool.m; sourceTree = "<group>"; };
+		DF8AF563269EAE8000CC6F4A /* ZFIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFIndicatorView.m; sourceTree = "<group>"; };
+		DF8AF564269EAE8000CC6F4A /* ZFAppLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAppLogoView.h; sourceTree = "<group>"; };
+		DF8AF565269EAE8000CC6F4A /* ZFSeatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatsView.h; sourceTree = "<group>"; };
+		DF8AF566269EAE8000CC6F4A /* ZFHallLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHallLogoView.m; sourceTree = "<group>"; };
+		DF8AF578269EAE9800CC6F4A /* ZFSeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSeatViewController.m; sourceTree = "<group>"; };
+		DF8AF579269EAE9800CC6F4A /* ZFSeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSeatViewController.h; sourceTree = "<group>"; };
+		DF8AF583269EB1F100CC6F4A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		DF8AF584269EB1F100CC6F4A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		DF958544266F609400181062 /* Runloop线程常驻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runloop线程常驻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF958546266F609400181062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF958547266F609400181062 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -189,6 +274,21 @@
 		DFA9C02A2624339C005ACFB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFA9C034262433CF005ACFB1 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
 		DFA9C035262433CF005ACFB1 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		DFCD660026CA40CB00C4D673 /* 通讯录Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "通讯录Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCD660226CA40CB00C4D673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFCD660326CA40CB00C4D673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFCD660526CA40CB00C4D673 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DFCD660626CA40CB00C4D673 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DFCD660826CA40CB00C4D673 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFCD660926CA40CB00C4D673 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFCD660C26CA40CB00C4D673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFCD660E26CA40CC00C4D673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFCD661126CA40CC00C4D673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFCD661326CA40CC00C4D673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCD661426CA40CC00C4D673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFC7F68975FDFFAC2FECB508 /* Pods_Runloop____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Runloop____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F768F1A694AEA4CE2B84FC76 /* Pods-Runloop线程常驻.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runloop线程常驻.debug.xcconfig"; path = "Target Support Files/Pods-Runloop线程常驻/Pods-Runloop线程常驻.debug.xcconfig"; sourceTree = "<group>"; };
+		F86C85C95E2AC6A5F3F8123F /* Pods_HT_ObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HT_ObjCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +296,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6736DCF38A7C934A31EA81 /* Pods______.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +304,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A683844508B117BF48B5D8 /* Pods_HT_ObjCDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +312,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E73099E866789AAA4190369 /* Pods_notifycation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +320,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBC6865534B2B56EFBCDC6D /* Pods___.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +328,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A873627A9BD342186ABCDFD2 /* Pods_____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +336,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64D217AE17E24CA9372CCD8 /* Pods_Runloop____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +344,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9B4A3A5C814F77045BAD5E /* Pods________.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +355,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFCD65FD26CA40CB00C4D673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A724A28B92C479F3E7D28DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				393EE419A7AEF920C7A03551 /* Pods-HT_ObjCDemo.debug.xcconfig */,
+				2C46F06AD49520B2ED1BFC43 /* Pods-HT_ObjCDemo.release.xcconfig */,
+				F768F1A694AEA4CE2B84FC76 /* Pods-Runloop线程常驻.debug.xcconfig */,
+				D95F0B1C17E9425C81EF24DD /* Pods-Runloop线程常驻.release.xcconfig */,
+				54DE3D125BD3FA3E90074436 /* Pods-notifycation.debug.xcconfig */,
+				32F926D89F6B3588212C3B10 /* Pods-notifycation.release.xcconfig */,
+				4ECA79A3DC35AE2A594064CA /* Pods-嵌套悬浮.debug.xcconfig */,
+				A192A86AD92DE610A44637BE /* Pods-嵌套悬浮.release.xcconfig */,
+				5BEA1C3329859B41B1C4BAB6 /* Pods-深复制与浅复制.debug.xcconfig */,
+				A76EDA74015C25D114B583E0 /* Pods-深复制与浅复制.release.xcconfig */,
+				3B76D5AEAA11A2C0C1964446 /* Pods-电影院选座.debug.xcconfig */,
+				140AAA6D986B31CCCE23745C /* Pods-电影院选座.release.xcconfig */,
+				BA50421F5947BB749F9A1E92 /* Pods-绘图.debug.xcconfig */,
+				421786CD6E87050CD2B2D787 /* Pods-绘图.release.xcconfig */,
+				698A24477763D55091987C93 /* Pods-谓词Demo.debug.xcconfig */,
+				6E1128DE7390BA84F587F75C /* Pods-谓词Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9766F14CB9B558B94A2E3B09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F86C85C95E2AC6A5F3F8123F /* Pods_HT_ObjCDemo.framework */,
+				EFC7F68975FDFFAC2FECB508 /* Pods_Runloop____.framework */,
+				61BD98AF01C6B55D16211D1E /* Pods_notifycation.framework */,
+				9E7B425051A3813F98E918A0 /* Pods_____.framework */,
+				C8B16BD3C83598A4DE6BF321 /* Pods________.framework */,
+				75F18F45F85AEA11D4A1158F /* Pods______.framework */,
+				1293A58158C2D1A6445E9439 /* Pods___.framework */,
+				A031977162C27B0999A5BCD6 /* Pods___Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF17F72C268F1D5C00871C13 /* 电影院选座 */ = {
 			isa = PBXGroup;
 			children = (
+				DF8AF553269EAE8000CC6F4A /* View */,
+				DF8AF544269EAE7800CC6F4A /* Model */,
+				DF8AF531269EAE6200CC6F4A /* Resouce */,
 				DF17F72D268F1D5C00871C13 /* AppDelegate.h */,
 				DF17F72E268F1D5C00871C13 /* AppDelegate.m */,
+				DF8AF579269EAE9800CC6F4A /* ZFSeatViewController.h */,
+				DF8AF578269EAE9800CC6F4A /* ZFSeatViewController.m */,
 				DF17F730268F1D5C00871C13 /* SceneDelegate.h */,
 				DF17F731268F1D5C00871C13 /* SceneDelegate.m */,
 				DF17F733268F1D5C00871C13 /* ViewController.h */,
@@ -280,7 +437,10 @@
 				DF958545266F609400181062 /* Runloop线程常驻 */,
 				DF95857A2670503800181062 /* 深复制与浅复制 */,
 				DF17F72C268F1D5C00871C13 /* 电影院选座 */,
+				DFCD660126CA40CB00C4D673 /* 通讯录Demo */,
 				DF5F2B632599DEFA00FD6E1C /* Products */,
+				7A724A28B92C479F3E7D28DF /* Pods */,
+				9766F14CB9B558B94A2E3B09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -295,6 +455,7 @@
 				DF958544266F609400181062 /* Runloop线程常驻.app */,
 				DF9585792670503800181062 /* 深复制与浅复制.app */,
 				DF17F72B268F1D5C00871C13 /* 电影院选座.app */,
+				DFCD660026CA40CB00C4D673 /* 通讯录Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -376,6 +537,57 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DF8AF531269EAE6200CC6F4A /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AF532269EAE6200CC6F4A /* seats 0.plist */,
+				DF8AF533269EAE6200CC6F4A /* seats 2.plist */,
+				DF8AF534269EAE6200CC6F4A /* seats 4.plist */,
+				DF8AF535269EAE6200CC6F4A /* seats 3.plist */,
+				DF8AF536269EAE6200CC6F4A /* seats 1.plist */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		DF8AF544269EAE7800CC6F4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AF545269EAE7800CC6F4A /* ZFSeatModel.h */,
+				DF8AF546269EAE7800CC6F4A /* ZFSeatsModel.h */,
+				DF8AF547269EAE7800CC6F4A /* ZFSeatModel.m */,
+				DF8AF548269EAE7800CC6F4A /* ZFSeatsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF8AF553269EAE8000CC6F4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AF583269EB1F100CC6F4A /* UIView+Extension.h */,
+				DF8AF584269EB1F100CC6F4A /* UIView+Extension.m */,
+				DF8AF564269EAE8000CC6F4A /* ZFAppLogoView.h */,
+				DF8AF55B269EAE8000CC6F4A /* ZFAppLogoView.m */,
+				DF8AF554269EAE8000CC6F4A /* ZFCenterLineView.h */,
+				DF8AF55E269EAE8000CC6F4A /* ZFCenterLineView.m */,
+				DF8AF559269EAE8000CC6F4A /* ZFHallLogoView.h */,
+				DF8AF566269EAE8000CC6F4A /* ZFHallLogoView.m */,
+				DF8AF55C269EAE8000CC6F4A /* ZFIndicatorView.h */,
+				DF8AF563269EAE8000CC6F4A /* ZFIndicatorView.m */,
+				DF8AF55F269EAE8000CC6F4A /* ZFRowIndexView.h */,
+				DF8AF556269EAE8000CC6F4A /* ZFRowIndexView.m */,
+				DF8AF561269EAE8000CC6F4A /* ZFSeatButton.h */,
+				DF8AF557269EAE8000CC6F4A /* ZFSeatButton.m */,
+				DF8AF558269EAE8000CC6F4A /* ZFSeatSelectionConfig.h */,
+				DF8AF55D269EAE8000CC6F4A /* ZFSeatSelectionTool.h */,
+				DF8AF562269EAE8000CC6F4A /* ZFSeatSelectionTool.m */,
+				DF8AF560269EAE8000CC6F4A /* ZFSeatSelectionView.h */,
+				DF8AF555269EAE8000CC6F4A /* ZFSeatSelectionView.m */,
+				DF8AF565269EAE8000CC6F4A /* ZFSeatsView.h */,
+				DF8AF55A269EAE8000CC6F4A /* ZFSeatsView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DF958545266F609400181062 /* Runloop线程常驻 */ = {
 			isa = PBXGroup;
 			children = (
@@ -444,6 +656,24 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DFCD660126CA40CB00C4D673 /* 通讯录Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD660226CA40CB00C4D673 /* AppDelegate.h */,
+				DFCD660326CA40CB00C4D673 /* AppDelegate.m */,
+				DFCD660526CA40CB00C4D673 /* SceneDelegate.h */,
+				DFCD660626CA40CB00C4D673 /* SceneDelegate.m */,
+				DFCD660826CA40CB00C4D673 /* ViewController.h */,
+				DFCD660926CA40CB00C4D673 /* ViewController.m */,
+				DFCD660B26CA40CB00C4D673 /* Main.storyboard */,
+				DFCD660E26CA40CC00C4D673 /* Assets.xcassets */,
+				DFCD661026CA40CC00C4D673 /* LaunchScreen.storyboard */,
+				DFCD661326CA40CC00C4D673 /* Info.plist */,
+				DFCD661426CA40CC00C4D673 /* main.m */,
+			);
+			path = "通讯录Demo";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -451,9 +681,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF17F743268F1D5D00871C13 /* Build configuration list for PBXNativeTarget "电影院选座" */;
 			buildPhases = (
+				8A16DEFEF90B433CB031E22A /* [CP] Check Pods Manifest.lock */,
 				DF17F727268F1D5C00871C13 /* Sources */,
 				DF17F728268F1D5C00871C13 /* Frameworks */,
 				DF17F729268F1D5C00871C13 /* Resources */,
+				69E60EE889ADA805DBA6A2D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -468,6 +700,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF5F2B7B2599DEFC00FD6E1C /* Build configuration list for PBXNativeTarget "HT_ObjCDemo" */;
 			buildPhases = (
+				E6284A5E3372E7353D3F6DFE /* [CP] Check Pods Manifest.lock */,
 				DF5F2B5E2599DEFA00FD6E1C /* Sources */,
 				DF5F2B5F2599DEFA00FD6E1C /* Frameworks */,
 				DF5F2B602599DEFA00FD6E1C /* Resources */,
@@ -487,6 +720,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF5F2BC62599E2EE00FD6E1C /* Build configuration list for PBXNativeTarget "notifycation" */;
 			buildPhases = (
+				FA181962073442AF46FF0375 /* [CP] Check Pods Manifest.lock */,
 				DF5F2BB62599E2EE00FD6E1C /* Sources */,
 				DF5F2BB72599E2EE00FD6E1C /* Frameworks */,
 				DF5F2BB82599E2EE00FD6E1C /* Resources */,
@@ -504,6 +738,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF64D10425E8C96E0061459E /* Build configuration list for PBXNativeTarget "绘图" */;
 			buildPhases = (
+				C97A59145EECC50E0E0224CE /* [CP] Check Pods Manifest.lock */,
 				DF64D0E825E8C96C0061459E /* Sources */,
 				DF64D0E925E8C96C0061459E /* Frameworks */,
 				DF64D0EA25E8C96C0061459E /* Resources */,
@@ -521,6 +756,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF7E5E2B26647AF600234E8B /* Build configuration list for PBXNativeTarget "嵌套悬浮" */;
 			buildPhases = (
+				4F8E6A0F3692CCF94C7AAC45 /* [CP] Check Pods Manifest.lock */,
 				DF7E5E0F26647AF500234E8B /* Sources */,
 				DF7E5E1026647AF500234E8B /* Frameworks */,
 				DF7E5E1126647AF500234E8B /* Resources */,
@@ -538,6 +774,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF95855C266F609500181062 /* Build configuration list for PBXNativeTarget "Runloop线程常驻" */;
 			buildPhases = (
+				65253BDEB56237332F1F712D /* [CP] Check Pods Manifest.lock */,
 				DF958540266F609400181062 /* Sources */,
 				DF958541266F609400181062 /* Frameworks */,
 				DF958542266F609400181062 /* Resources */,
@@ -555,6 +792,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF95858F2670503900181062 /* Build configuration list for PBXNativeTarget "深复制与浅复制" */;
 			buildPhases = (
+				A9D2361F227E361B771E9432 /* [CP] Check Pods Manifest.lock */,
 				DF9585752670503800181062 /* Sources */,
 				DF9585762670503800181062 /* Frameworks */,
 				DF9585772670503800181062 /* Resources */,
@@ -572,6 +810,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFA9C02E2624339C005ACFB1 /* Build configuration list for PBXNativeTarget "谓词Demo" */;
 			buildPhases = (
+				EE6F70476F20B3A8C417E1F9 /* [CP] Check Pods Manifest.lock */,
 				DFA9C0122624339B005ACFB1 /* Sources */,
 				DFA9C0132624339B005ACFB1 /* Frameworks */,
 				DFA9C0142624339B005ACFB1 /* Resources */,
@@ -583,6 +822,23 @@
 			name = "谓词Demo";
 			productName = "谓词Demo";
 			productReference = DFA9C0162624339B005ACFB1 /* 谓词Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFCD65FF26CA40CB00C4D673 /* 通讯录Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCD661826CA40CC00C4D673 /* Build configuration list for PBXNativeTarget "通讯录Demo" */;
+			buildPhases = (
+				DFCD65FC26CA40CB00C4D673 /* Sources */,
+				DFCD65FD26CA40CB00C4D673 /* Frameworks */,
+				DFCD65FE26CA40CB00C4D673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "通讯录Demo";
+			productName = "通讯录Demo";
+			productReference = DFCD660026CA40CB00C4D673 /* 通讯录Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -617,6 +873,9 @@
 					DFA9C0152624339B005ACFB1 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					DFCD65FF26CA40CB00C4D673 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = DF5F2B5D2599DEFA00FD6E1C /* Build configuration list for PBXProject "HT_ObjCDemo" */;
@@ -640,6 +899,7 @@
 				DF958543266F609400181062 /* Runloop线程常驻 */,
 				DF9585782670503800181062 /* 深复制与浅复制 */,
 				DF17F72A268F1D5C00871C13 /* 电影院选座 */,
+				DFCD65FF26CA40CB00C4D673 /* 通讯录Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -649,9 +909,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8AF53B269EAE6200CC6F4A /* seats 1.plist in Resources */,
 				DF17F73D268F1D5D00871C13 /* LaunchScreen.storyboard in Resources */,
+				DF8AF538269EAE6200CC6F4A /* seats 2.plist in Resources */,
 				DF17F73A268F1D5D00871C13 /* Assets.xcassets in Resources */,
+				DF8AF53A269EAE6200CC6F4A /* seats 3.plist in Resources */,
+				DF8AF539269EAE6200CC6F4A /* seats 4.plist in Resources */,
 				DF17F738268F1D5C00871C13 /* Main.storyboard in Resources */,
+				DF8AF537269EAE6200CC6F4A /* seats 0.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,16 +987,235 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFCD65FE26CA40CB00C4D673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCD661226CA40CC00C4D673 /* LaunchScreen.storyboard in Resources */,
+				DFCD660F26CA40CC00C4D673 /* Assets.xcassets in Resources */,
+				DFCD660D26CA40CB00C4D673 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F8E6A0F3692CCF94C7AAC45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-嵌套悬浮-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65253BDEB56237332F1F712D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runloop线程常驻-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69E60EE889ADA805DBA6A2D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-电影院选座/Pods-电影院选座-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-电影院选座/Pods-电影院选座-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-电影院选座/Pods-电影院选座-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A16DEFEF90B433CB031E22A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-电影院选座-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D2361F227E361B771E9432 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-深复制与浅复制-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97A59145EECC50E0E0224CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-绘图-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6284A5E3372E7353D3F6DFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HT_ObjCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6F70476F20B3A8C417E1F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-谓词Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA181962073442AF46FF0375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-notifycation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF17F727268F1D5C00871C13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8AF56D269EAE8000CC6F4A /* ZFSeatSelectionTool.m in Sources */,
+				DF8AF54A269EAE7800CC6F4A /* ZFSeatsModel.m in Sources */,
+				DF8AF56B269EAE8000CC6F4A /* ZFAppLogoView.m in Sources */,
+				DF8AF569269EAE8000CC6F4A /* ZFSeatButton.m in Sources */,
+				DF8AF567269EAE8000CC6F4A /* ZFSeatSelectionView.m in Sources */,
+				DF8AF585269EB1F100CC6F4A /* UIView+Extension.m in Sources */,
+				DF8AF549269EAE7800CC6F4A /* ZFSeatModel.m in Sources */,
 				DF17F735268F1D5C00871C13 /* ViewController.m in Sources */,
 				DF17F72F268F1D5C00871C13 /* AppDelegate.m in Sources */,
+				DF8AF56F269EAE8000CC6F4A /* ZFHallLogoView.m in Sources */,
+				DF8AF56E269EAE8000CC6F4A /* ZFIndicatorView.m in Sources */,
 				DF17F740268F1D5D00871C13 /* main.m in Sources */,
+				DF8AF56A269EAE8000CC6F4A /* ZFSeatsView.m in Sources */,
+				DF8AF56C269EAE8000CC6F4A /* ZFCenterLineView.m in Sources */,
+				DF8AF57A269EAE9900CC6F4A /* ZFSeatViewController.m in Sources */,
+				DF8AF568269EAE8000CC6F4A /* ZFRowIndexView.m in Sources */,
 				DF17F732268F1D5C00871C13 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -812,6 +1296,17 @@
 				DFA9C01A2624339B005ACFB1 /* AppDelegate.m in Sources */,
 				DFA9C02B2624339C005ACFB1 /* main.m in Sources */,
 				DFA9C01D2624339B005ACFB1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD65FC26CA40CB00C4D673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCD660A26CA40CB00C4D673 /* ViewController.m in Sources */,
+				DFCD660426CA40CB00C4D673 /* AppDelegate.m in Sources */,
+				DFCD661526CA40CC00C4D673 /* main.m in Sources */,
+				DFCD660726CA40CB00C4D673 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,11 +1433,28 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		DFCD660B26CA40CB00C4D673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCD660C26CA40CB00C4D673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFCD661026CA40CC00C4D673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCD661126CA40CC00C4D673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DF17F741268F1D5D00871C13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B76D5AEAA11A2C0C1964446 /* Pods-电影院选座.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -962,6 +1474,7 @@
 		};
 		DF17F742268F1D5D00871C13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140AAA6D986B31CCCE23745C /* Pods-电影院选座.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1093,6 +1606,7 @@
 		};
 		DF5F2B7C2599DEFC00FD6E1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393EE419A7AEF920C7A03551 /* Pods-HT_ObjCDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1113,6 +1627,7 @@
 		};
 		DF5F2B7D2599DEFC00FD6E1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C46F06AD49520B2ED1BFC43 /* Pods-HT_ObjCDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1133,6 +1648,7 @@
 		};
 		DF5F2BC42599E2EE00FD6E1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DE3D125BD3FA3E90074436 /* Pods-notifycation.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 475QH33KPT;
@@ -1152,6 +1668,7 @@
 		};
 		DF5F2BC52599E2EE00FD6E1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F926D89F6B3588212C3B10 /* Pods-notifycation.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 475QH33KPT;
@@ -1171,6 +1688,7 @@
 		};
 		DF64D10225E8C96E0061459E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA50421F5947BB749F9A1E92 /* Pods-绘图.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1190,6 +1708,7 @@
 		};
 		DF64D10325E8C96E0061459E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421786CD6E87050CD2B2D787 /* Pods-绘图.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1209,6 +1728,7 @@
 		};
 		DF7E5E2926647AF600234E8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECA79A3DC35AE2A594064CA /* Pods-嵌套悬浮.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1228,6 +1748,7 @@
 		};
 		DF7E5E2A26647AF600234E8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A192A86AD92DE610A44637BE /* Pods-嵌套悬浮.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1247,6 +1768,7 @@
 		};
 		DF95855A266F609500181062 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F768F1A694AEA4CE2B84FC76 /* Pods-Runloop线程常驻.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1266,6 +1788,7 @@
 		};
 		DF95855B266F609500181062 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D95F0B1C17E9425C81EF24DD /* Pods-Runloop线程常驻.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1285,6 +1808,7 @@
 		};
 		DF9585902670503900181062 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BEA1C3329859B41B1C4BAB6 /* Pods-深复制与浅复制.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1304,6 +1828,7 @@
 		};
 		DF9585912670503900181062 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76EDA74015C25D114B583E0 /* Pods-深复制与浅复制.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1323,6 +1848,7 @@
 		};
 		DFA9C02C2624339C005ACFB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698A24477763D55091987C93 /* Pods-谓词Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1342,6 +1868,7 @@
 		};
 		DFA9C02D2624339C005ACFB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1128DE7390BA84F587F75C /* Pods-谓词Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1354,6 +1881,44 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFCD661626CA40CC00C4D673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 475QH33KPT;
+				INFOPLIST_FILE = "通讯录Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.---Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFCD661726CA40CC00C4D673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 475QH33KPT;
+				INFOPLIST_FILE = "通讯录Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.---Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1439,6 +2004,15 @@
 			buildConfigurations = (
 				DFA9C02C2624339C005ACFB1 /* Debug */,
 				DFA9C02D2624339C005ACFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCD661826CA40CC00C4D673 /* Build configuration list for PBXNativeTarget "通讯录Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCD661626CA40CC00C4D673 /* Debug */,
+				DFCD661726CA40CC00C4D673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

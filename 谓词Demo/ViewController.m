@@ -43,20 +43,36 @@
     model04.groupId = @"12212";
     model04.groupName = @"04";
     [dataArray addObject:model04];
-//    TestModel * model10 = [[TestModel alloc] init];
-//    model10.groupId = @"31231";
-//    model10.groupName = @"01";
-//    [dataArray addObject:model10];
-//
-//    TestModel * model11 = [[TestModel alloc] init];
-//    model11.groupId = @"31231";
-//    model11.groupName = @"01";
-//    [dataArray addObject:model11];
+    TestModel * model10 = [[TestModel alloc] init];
+    model10.groupId = @"31231";
+    model10.groupName = @"01";
+    [dataArray addObject:model10];
+
+    TestModel * model11 = [[TestModel alloc] init];
+    model11.groupId = @"31231";
+    model11.groupName = @"01";
+    [dataArray addObject:model11];
     
     NSPredicate *tempDPredicate = [NSPredicate predicateWithFormat:@"groupId == %@", @"12212"];
     NSArray * findresult =[dataArray  filteredArrayUsingPredicate:tempDPredicate];
     
     NSLog(@"%@\n%@",findresult,[findresult.lastObject valueForKey:@"groupName"]);
+    
+    //判断数值相等
+    NSInteger number = 121;
+    NSPredicate * predicate = [NSPredicate predicateWithFormat:@"SELF < 123"];
+    if ([predicate evaluateWithObject:@(number)]) {
+        NSLog(@"数值是%@",@(number));
+    }
+    
+    NSArray * array = @[@1,@3,@10,@12,@6,@7,@20];
+    NSArray * array2 = @[@3,@10,@14,@6,@15];
+    NSPredicate * predicateNum = [NSPredicate predicateWithFormat:@"NOT (SELF IN %@)",array2];
+    NSArray * filterArray = [array filteredArrayUsingPredicate:predicateNum];
+    NSLog(@"%@",filterArray);
+    NSPredicate * predicateBetween = [NSPredicate predicateWithFormat:@"SELF BETWEEN {10,20}"];
+    NSArray * betweenArray = [array filteredArrayUsingPredicate:predicateBetween];
+    NSLog(@"%@",betweenArray);
     
 }
 
