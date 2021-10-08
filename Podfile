@@ -6,6 +6,7 @@ target 'HT_ObjCDemo' do
   use_frameworks!
 
   # Pods for HT_ObjCDemo
+  pod "Masonry"
 
 end
 
