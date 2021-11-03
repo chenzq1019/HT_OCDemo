@@ -6,9 +6,13 @@
 //
 
 #import "ViewController.h"
-#import <MessageUI/MFMessageComposeViewController.h>
-@interface ViewController ()<MFMessageComposeViewControllerDelegate>
+#import <Masonry/Masonry.h>
+#import "SendMsgViewController.h"
+#import "HT_LoginProtocolVC.h"
 
+@interface ViewController ()< UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic, strong) UITableView * mTableView;
+@property (nonatomic, strong) NSMutableArray * mdataArray;
 @end
 
 @implementation ViewController
@@ -17,36 +21,64 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"测试模块";
+    [self loadData];
+    [self.view addSubview:self.mTableView];
+    [self.mTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(self.view);
+    }];
     // Do any additional setup after loading the view.
-    UIButton * sender = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, 100, 40)];
-    sender.backgroundColor= UIColor.redColor;
-    [sender addTarget:self action:@selector(sendeMsg:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:sender];
-    
-  
-    
+}
+
+- (void)loadData{
+    _mdataArray = [@[@"发送短信",@"富文本可点击"] mutableCopy];
 }
 
 
-- (void)sendeMsg:(id)sender{
-    if ([MFMessageComposeViewController canSendText]) {
-            //  判断一下是否支持发送短信，比如模拟器
-        NSString * str = @"18016333297;10086";
-        NSArray * array = [str componentsSeparatedByString:@";"];
-            MFMessageComposeViewController *messageVC = [[MFMessageComposeViewController alloc] init];
-            messageVC.recipients = array; //需要发送的手机号数组
-            messageVC.body = @"发送的内容";
-            messageVC.messageComposeDelegate = self; //指定代理
-        [self presentViewController:messageVC animated:YES completion:^{
-//            [messageVC dismissViewControllerAnimated:YES completion:nil];
-        }];
-        } else {
-//            [SVProgressHUD showErrorWithStatus:@"设备不支持短信功能"];
-            NSLog(@"不支持");
+#pragma mark - <delegate and datasource>
+- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.mdataArray.count;
+}
+
+- (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"mycell" forIndexPath:indexPath];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.textLabel.text = self.mdataArray[indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    switch (indexPath.row) {
+        case 0:{
+            SendMsgViewController * sendVC = [[SendMsgViewController alloc] init];
+            [self.navigationController pushViewController:sendVC animated:YES];
+            
+        }break;
+        case 1:{
+            HT_LoginProtocolVC * vc = [[HT_LoginProtocolVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
         }
+            break;
+        default:
+            break;
+    }
 }
 
-- (void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult)result{
-    [controller dismissViewControllerAnimated:YES completion:nil];
+#pragma mark - <getter>
+- (UITableView *)mTableView{
+    if (!_mTableView) {
+        _mTableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
+        _mTableView.delegate= self;
+        _mTableView.dataSource = self;
+        [_mTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"mycell"];
+        
+    }
+    return _mTableView;
+}
+- (NSMutableArray *)mdataArray{
+    if (!_mdataArray) {
+        _mdataArray = [NSMutableArray new];
+    }
+    return _mdataArray;
 }
 @end
