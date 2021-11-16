@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E73099E866789AAA4190369 /* Pods_notifycation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BD98AF01C6B55D16211D1E /* Pods_notifycation.framework */; };
-		3A6736DCF38A7C934A31EA81 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F18F45F85AEA11D4A1158F /* Pods______.framework */; };
-		A873627A9BD342186ABCDFD2 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7B425051A3813F98E918A0 /* Pods_____.framework */; };
-		BC9B4A3A5C814F77045BAD5E /* Pods________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B16BD3C83598A4DE6BF321 /* Pods________.framework */; };
-		CFBC6865534B2B56EFBCDC6D /* Pods___.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1293A58158C2D1A6445E9439 /* Pods___.framework */; };
-		D0A683844508B117BF48B5D8 /* Pods_HT_ObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86C85C95E2AC6A5F3F8123F /* Pods_HT_ObjCDemo.framework */; };
-		D64D217AE17E24CA9372CCD8 /* Pods_Runloop____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC7F68975FDFFAC2FECB508 /* Pods_Runloop____.framework */; };
-		DD28BC140DF229A33DADEB6F /* Pods___Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A031977162C27B0999A5BCD6 /* Pods___Demo.framework */; };
+		4F91AF58D980CB920F305DCA /* Pods___Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBE4FEC20629A1504D66356 /* Pods___Demo.framework */; };
+		6F1FD6E059BAADB3FC0E5FD0 /* Pods_notifycation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA16A34A52FCA077A2264C02 /* Pods_notifycation.framework */; };
+		8DDDFACAF7CAF8F12E0714DD /* Pods________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C28F2A0083BF9ABF9901F96 /* Pods________.framework */; };
+		8E9483F5BDF7DFE090F66BB9 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD186599565E933D3564C87 /* Pods_____.framework */; };
+		A3C2AE814E816AC8BAC9489C /* Pods___.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F8F5CA63EE9CAE23A6C335 /* Pods___.framework */; };
+		B31E9B2B6F860D9AFA4C8770 /* Pods_Runloop____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5862C401500484B7039FD9A /* Pods_Runloop____.framework */; };
+		C4B8DE8528254ACFF9BC3138 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728C7046ABE4ED73039E0607 /* Pods______.framework */; };
 		DF17F72F268F1D5C00871C13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F72E268F1D5C00871C13 /* AppDelegate.m */; };
 		DF17F732268F1D5C00871C13 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F731268F1D5C00871C13 /* SceneDelegate.m */; };
 		DF17F735268F1D5C00871C13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F734268F1D5C00871C13 /* ViewController.m */; };
@@ -39,6 +38,10 @@
 		DF64D0FE25E8C96E0061459E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF64D0FC25E8C96E0061459E /* LaunchScreen.storyboard */; };
 		DF64D10125E8C96E0061459E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64D10025E8C96E0061459E /* main.m */; };
 		DF64D10A25E8C9870061459E /* CustemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64D10925E8C9870061459E /* CustemView.m */; };
+		DF69A4E5274387BB00906869 /* JHCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF69A4DF274387BB00906869 /* JHCollectionReusableView.m */; };
+		DF69A4E6274387BB00906869 /* JHCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DF69A4E1274387BB00906869 /* JHCollectionViewFlowLayout.m */; };
+		DF69A4E7274387BB00906869 /* JHCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = DF69A4E2274387BB00906869 /* JHCollectionViewLayoutAttributes.m */; };
+		DF69A4F52743887F00906869 /* HT_CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF69A4F42743887F00906869 /* HT_CollectionViewController.m */; };
 		DF7E5E1726647AF500234E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E5E1626647AF500234E8B /* AppDelegate.m */; };
 		DF7E5E1A26647AF500234E8B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E5E1926647AF500234E8B /* SceneDelegate.m */; };
 		DF7E5E1D26647AF500234E8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E5E1C26647AF500234E8B /* ViewController.m */; };
@@ -125,6 +128,7 @@
 		DFCD660F26CA40CC00C4D673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCD660E26CA40CC00C4D673 /* Assets.xcassets */; };
 		DFCD661226CA40CC00C4D673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCD661026CA40CC00C4D673 /* LaunchScreen.storyboard */; };
 		DFCD661526CA40CC00C4D673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCD661426CA40CC00C4D673 /* main.m */; };
+		E91DEA768DE466D919EFB3DA /* Pods_HT_ObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43A7405EE96F6F05EC9D39B /* Pods_HT_ObjCDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,26 +156,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1293A58158C2D1A6445E9439 /* Pods___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		140AAA6D986B31CCCE23745C /* Pods-电影院选座.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-电影院选座.release.xcconfig"; path = "Target Support Files/Pods-电影院选座/Pods-电影院选座.release.xcconfig"; sourceTree = "<group>"; };
 		2C46F06AD49520B2ED1BFC43 /* Pods-HT_ObjCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HT_ObjCDemo.release.xcconfig"; path = "Target Support Files/Pods-HT_ObjCDemo/Pods-HT_ObjCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		32F926D89F6B3588212C3B10 /* Pods-notifycation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notifycation.release.xcconfig"; path = "Target Support Files/Pods-notifycation/Pods-notifycation.release.xcconfig"; sourceTree = "<group>"; };
 		393EE419A7AEF920C7A03551 /* Pods-HT_ObjCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HT_ObjCDemo.debug.xcconfig"; path = "Target Support Files/Pods-HT_ObjCDemo/Pods-HT_ObjCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3B76D5AEAA11A2C0C1964446 /* Pods-电影院选座.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-电影院选座.debug.xcconfig"; path = "Target Support Files/Pods-电影院选座/Pods-电影院选座.debug.xcconfig"; sourceTree = "<group>"; };
+		3DBE4FEC20629A1504D66356 /* Pods___Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods___Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		421786CD6E87050CD2B2D787 /* Pods-绘图.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-绘图.release.xcconfig"; path = "Target Support Files/Pods-绘图/Pods-绘图.release.xcconfig"; sourceTree = "<group>"; };
 		4ECA79A3DC35AE2A594064CA /* Pods-嵌套悬浮.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-嵌套悬浮.debug.xcconfig"; path = "Target Support Files/Pods-嵌套悬浮/Pods-嵌套悬浮.debug.xcconfig"; sourceTree = "<group>"; };
 		54DE3D125BD3FA3E90074436 /* Pods-notifycation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notifycation.debug.xcconfig"; path = "Target Support Files/Pods-notifycation/Pods-notifycation.debug.xcconfig"; sourceTree = "<group>"; };
 		5BEA1C3329859B41B1C4BAB6 /* Pods-深复制与浅复制.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-深复制与浅复制.debug.xcconfig"; path = "Target Support Files/Pods-深复制与浅复制/Pods-深复制与浅复制.debug.xcconfig"; sourceTree = "<group>"; };
-		61BD98AF01C6B55D16211D1E /* Pods_notifycation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notifycation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F8F5CA63EE9CAE23A6C335 /* Pods___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods___.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		698A24477763D55091987C93 /* Pods-谓词Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-谓词Demo.debug.xcconfig"; path = "Target Support Files/Pods-谓词Demo/Pods-谓词Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		6E1128DE7390BA84F587F75C /* Pods-谓词Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-谓词Demo.release.xcconfig"; path = "Target Support Files/Pods-谓词Demo/Pods-谓词Demo.release.xcconfig"; sourceTree = "<group>"; };
-		75F18F45F85AEA11D4A1158F /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E7B425051A3813F98E918A0 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A031977162C27B0999A5BCD6 /* Pods___Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		728C7046ABE4ED73039E0607 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods______.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C28F2A0083BF9ABF9901F96 /* Pods________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods________.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD186599565E933D3564C87 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A192A86AD92DE610A44637BE /* Pods-嵌套悬浮.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-嵌套悬浮.release.xcconfig"; path = "Target Support Files/Pods-嵌套悬浮/Pods-嵌套悬浮.release.xcconfig"; sourceTree = "<group>"; };
 		A76EDA74015C25D114B583E0 /* Pods-深复制与浅复制.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-深复制与浅复制.release.xcconfig"; path = "Target Support Files/Pods-深复制与浅复制/Pods-深复制与浅复制.release.xcconfig"; sourceTree = "<group>"; };
 		BA50421F5947BB749F9A1E92 /* Pods-绘图.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-绘图.debug.xcconfig"; path = "Target Support Files/Pods-绘图/Pods-绘图.debug.xcconfig"; sourceTree = "<group>"; };
-		C8B16BD3C83598A4DE6BF321 /* Pods________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43A7405EE96F6F05EC9D39B /* Pods_HT_ObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HT_ObjCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5862C401500484B7039FD9A /* Pods_Runloop____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runloop____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95F0B1C17E9425C81EF24DD /* Pods-Runloop线程常驻.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runloop线程常驻.release.xcconfig"; path = "Target Support Files/Pods-Runloop线程常驻/Pods-Runloop线程常驻.release.xcconfig"; sourceTree = "<group>"; };
 		DF17F72B268F1D5C00871C13 /* 电影院选座.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "电影院选座.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF17F72D268F1D5C00871C13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -216,6 +221,14 @@
 		DF64D10025E8C96E0061459E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF64D10825E8C9870061459E /* CustemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustemView.h; sourceTree = "<group>"; };
 		DF64D10925E8C9870061459E /* CustemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustemView.m; sourceTree = "<group>"; };
+		DF69A4DF274387BB00906869 /* JHCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionReusableView.m; sourceTree = "<group>"; };
+		DF69A4E0274387BB00906869 /* JHCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionReusableView.h; sourceTree = "<group>"; };
+		DF69A4E1274387BB00906869 /* JHCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		DF69A4E2274387BB00906869 /* JHCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		DF69A4E3274387BB00906869 /* JHCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		DF69A4E4274387BB00906869 /* JHCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		DF69A4F32743887F00906869 /* HT_CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HT_CollectionViewController.h; sourceTree = "<group>"; };
+		DF69A4F42743887F00906869 /* HT_CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HT_CollectionViewController.m; sourceTree = "<group>"; };
 		DF7E5E1326647AF500234E8B /* 嵌套悬浮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "嵌套悬浮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7E5E1526647AF500234E8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF7E5E1626647AF500234E8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -370,9 +383,8 @@
 		DFCD661126CA40CC00C4D673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFCD661326CA40CC00C4D673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFCD661426CA40CC00C4D673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EFC7F68975FDFFAC2FECB508 /* Pods_Runloop____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Runloop____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA16A34A52FCA077A2264C02 /* Pods_notifycation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notifycation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F768F1A694AEA4CE2B84FC76 /* Pods-Runloop线程常驻.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runloop线程常驻.debug.xcconfig"; path = "Target Support Files/Pods-Runloop线程常驻/Pods-Runloop线程常驻.debug.xcconfig"; sourceTree = "<group>"; };
-		F86C85C95E2AC6A5F3F8123F /* Pods_HT_ObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HT_ObjCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -380,7 +392,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6736DCF38A7C934A31EA81 /* Pods______.framework in Frameworks */,
+				C4B8DE8528254ACFF9BC3138 /* Pods______.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +400,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A683844508B117BF48B5D8 /* Pods_HT_ObjCDemo.framework in Frameworks */,
+				E91DEA768DE466D919EFB3DA /* Pods_HT_ObjCDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +408,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E73099E866789AAA4190369 /* Pods_notifycation.framework in Frameworks */,
+				6F1FD6E059BAADB3FC0E5FD0 /* Pods_notifycation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +416,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFBC6865534B2B56EFBCDC6D /* Pods___.framework in Frameworks */,
+				A3C2AE814E816AC8BAC9489C /* Pods___.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +424,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A873627A9BD342186ABCDFD2 /* Pods_____.framework in Frameworks */,
+				8E9483F5BDF7DFE090F66BB9 /* Pods_____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +439,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64D217AE17E24CA9372CCD8 /* Pods_Runloop____.framework in Frameworks */,
+				B31E9B2B6F860D9AFA4C8770 /* Pods_Runloop____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +447,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9B4A3A5C814F77045BAD5E /* Pods________.framework in Frameworks */,
+				8DDDFACAF7CAF8F12E0714DD /* Pods________.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +455,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD28BC140DF229A33DADEB6F /* Pods___Demo.framework in Frameworks */,
+				4F91AF58D980CB920F305DCA /* Pods___Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,9 +488,9 @@
 				4ECA79A3DC35AE2A594064CA /* Pods-嵌套悬浮.debug.xcconfig */,
 				A192A86AD92DE610A44637BE /* Pods-嵌套悬浮.release.xcconfig */,
 				5BEA1C3329859B41B1C4BAB6 /* Pods-深复制与浅复制.debug.xcconfig */,
+				140AAA6D986B31CCCE23745C /* Pods-电影院选座.release.xcconfig */,
 				A76EDA74015C25D114B583E0 /* Pods-深复制与浅复制.release.xcconfig */,
 				3B76D5AEAA11A2C0C1964446 /* Pods-电影院选座.debug.xcconfig */,
-				140AAA6D986B31CCCE23745C /* Pods-电影院选座.release.xcconfig */,
 				BA50421F5947BB749F9A1E92 /* Pods-绘图.debug.xcconfig */,
 				421786CD6E87050CD2B2D787 /* Pods-绘图.release.xcconfig */,
 				698A24477763D55091987C93 /* Pods-谓词Demo.debug.xcconfig */,
@@ -490,14 +502,14 @@
 		9766F14CB9B558B94A2E3B09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F86C85C95E2AC6A5F3F8123F /* Pods_HT_ObjCDemo.framework */,
-				EFC7F68975FDFFAC2FECB508 /* Pods_Runloop____.framework */,
-				61BD98AF01C6B55D16211D1E /* Pods_notifycation.framework */,
-				9E7B425051A3813F98E918A0 /* Pods_____.framework */,
-				C8B16BD3C83598A4DE6BF321 /* Pods________.framework */,
-				75F18F45F85AEA11D4A1158F /* Pods______.framework */,
-				1293A58158C2D1A6445E9439 /* Pods___.framework */,
-				A031977162C27B0999A5BCD6 /* Pods___Demo.framework */,
+				C43A7405EE96F6F05EC9D39B /* Pods_HT_ObjCDemo.framework */,
+				D5862C401500484B7039FD9A /* Pods_Runloop____.framework */,
+				EA16A34A52FCA077A2264C02 /* Pods_notifycation.framework */,
+				9AD186599565E933D3564C87 /* Pods_____.framework */,
+				7C28F2A0083BF9ABF9901F96 /* Pods________.framework */,
+				728C7046ABE4ED73039E0607 /* Pods______.framework */,
+				67F8F5CA63EE9CAE23A6C335 /* Pods___.framework */,
+				3DBE4FEC20629A1504D66356 /* Pods___Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -566,6 +578,7 @@
 		DF5F2B642599DEFA00FD6E1C /* HT_ObjCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DF69A4DE2743879100906869 /* UICollectionView（添加section背景颜色） */,
 				DFA232D326EB2ECD00A891B5 /* 富文本点击（登录协议） */,
 				DFA232BD26EB2E5C00A891B5 /* 发送短信 */,
 				DF5F2BCD2599E84800FD6E1C /* HT_ObjCDemo.entitlements */,
@@ -612,6 +625,21 @@
 				DF64D10925E8C9870061459E /* CustemView.m */,
 			);
 			path = "绘图";
+			sourceTree = "<group>";
+		};
+		DF69A4DE2743879100906869 /* UICollectionView（添加section背景颜色） */ = {
+			isa = PBXGroup;
+			children = (
+				DF69A4E0274387BB00906869 /* JHCollectionReusableView.h */,
+				DF69A4DF274387BB00906869 /* JHCollectionReusableView.m */,
+				DF69A4E4274387BB00906869 /* JHCollectionViewFlowLayout.h */,
+				DF69A4E1274387BB00906869 /* JHCollectionViewFlowLayout.m */,
+				DF69A4E3274387BB00906869 /* JHCollectionViewLayoutAttributes.h */,
+				DF69A4E2274387BB00906869 /* JHCollectionViewLayoutAttributes.m */,
+				DF69A4F32743887F00906869 /* HT_CollectionViewController.h */,
+				DF69A4F42743887F00906869 /* HT_CollectionViewController.m */,
+			);
+			path = "UICollectionView（添加section背景颜色）";
 			sourceTree = "<group>";
 		};
 		DF7E5E1426647AF500234E8B /* 嵌套悬浮 */ = {
@@ -1546,10 +1574,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5F2B6D2599DEFA00FD6E1C /* ViewController.m in Sources */,
+				DF69A4E7274387BB00906869 /* JHCollectionViewLayoutAttributes.m in Sources */,
+				DF69A4F52743887F00906869 /* HT_CollectionViewController.m in Sources */,
 				DF5F2B672599DEFA00FD6E1C /* AppDelegate.m in Sources */,
+				DF69A4E5274387BB00906869 /* JHCollectionReusableView.m in Sources */,
 				DF5F2B782599DEFC00FD6E1C /* main.m in Sources */,
 				DFA232C026EB2E8300A891B5 /* SendMsgViewController.m in Sources */,
 				DFA232D626EB2F2100A891B5 /* HT_LoginProtocolVC.m in Sources */,
+				DF69A4E6274387BB00906869 /* JHCollectionViewFlowLayout.m in Sources */,
 				DF5F2B6A2599DEFA00FD6E1C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

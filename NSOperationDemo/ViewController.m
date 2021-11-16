@@ -342,6 +342,6 @@
 }
 
 //- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//    [[HTAlertViewManager sharedManager]  showApplicationAlertView];
+//    [HTAlertViewManager showAlertView];
 //}
 @end

@@ -9,6 +9,7 @@
 #import <Masonry/Masonry.h>
 #import "SendMsgViewController.h"
 #import "HT_LoginProtocolVC.h"
+#import "HT_CollectionViewController.h"
 
 @interface ViewController ()< UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView * mTableView;
@@ -31,7 +32,7 @@
 }
 
 - (void)loadData{
-    _mdataArray = [@[@"发送短信",@"富文本可点击"] mutableCopy];
+    _mdataArray = [@[@"发送短信",@"富文本可点击",@"UICollectionView分组背景颜色"] mutableCopy];
 }
 
 
@@ -56,6 +57,11 @@
         }break;
         case 1:{
             HT_LoginProtocolVC * vc = [[HT_LoginProtocolVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 2:{
+            HT_CollectionViewController * vc = [[HT_CollectionViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
