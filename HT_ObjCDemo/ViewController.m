@@ -10,7 +10,7 @@
 #import "SendMsgViewController.h"
 #import "HT_LoginProtocolVC.h"
 #import "HT_CollectionViewController.h"
-
+#import "TestOneVC.h"
 @interface ViewController ()< UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView * mTableView;
 @property (nonatomic, strong) NSMutableArray * mdataArray;
@@ -32,7 +32,7 @@
 }
 
 - (void)loadData{
-    _mdataArray = [@[@"发送短信",@"富文本可点击",@"UICollectionView分组背景颜色"] mutableCopy];
+    _mdataArray = [@[@"发送短信",@"富文本可点击",@"UICollectionView分组背景颜色",@"获取当前VC"] mutableCopy];
 }
 
 
@@ -65,6 +65,10 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
+        case 3:{
+            TestOneVC * vc = [[TestOneVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
         default:
             break;
     }
