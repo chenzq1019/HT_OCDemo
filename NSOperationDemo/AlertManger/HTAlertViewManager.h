@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 typedef void(^CustomAlertViewManagerFinish)(void);
 @interface HTAlertViewManager : NSObject
 @property (nonatomic, strong) _Nullable CustomAlertViewManagerFinish  finishBlock;
-
+@property (nonatomic, copy) NSString * targetVCName;
 + (instancetype)sharedManager;
 
 //添加view

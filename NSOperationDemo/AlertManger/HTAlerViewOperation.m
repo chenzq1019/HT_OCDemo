@@ -7,6 +7,8 @@
 
 #import "HTAlerViewOperation.h"
 #import "UIView+ShowAnimation.h"
+#import "UIViewController+UleExtension.h"
+#import "HTAlertViewManager.h"
 @implementation HTAlerViewOperation
 @synthesize executing = _executing;
 @synthesize finished = _finished;
@@ -29,6 +31,11 @@
     __weak typeof(self) weakself = self;
     self.view.mCompleteBlock = ^{
         dispatch_async(dispatch_get_main_queue(), ^{
+            //如果指定了显示页面，则需要判断是否是指定页面，如果不是指定显示页面就先暂停后续的弹框显示。
+            NSString * targetName=[HTAlertViewManager sharedManager].targetVCName;
+            if (targetName.length>0&&![targetName isEqualToString:NSStringFromClass([[UIViewController currentViewController] class])]){
+                [HTAlertViewManager suspendShowAlert];
+            }
             [weakself done];
         });
     };

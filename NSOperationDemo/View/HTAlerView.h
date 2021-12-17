@@ -13,6 +13,7 @@ typedef void(^HTAlerViewClickBlock)(void);
 
 @interface HTAlerView : UIView
 @property(nonatomic, strong) HTAlerViewClickBlock clickBLock;
+@property (nonatomic, assign) NSInteger sortNum;
 @end
 
 NS_ASSUME_NONNULL_END

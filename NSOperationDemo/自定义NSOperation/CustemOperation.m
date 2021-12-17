@@ -11,6 +11,7 @@
 
 
 - (void)main{
+    //这个是测试提交修改的
     NSLog(@"main--%@",[NSThread currentThread]);
 }
 @end

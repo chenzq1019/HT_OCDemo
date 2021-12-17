@@ -10,6 +10,7 @@
 #import "UIViewController+UleExtension.h"
 @interface HTAlerView ()
 @property (nonatomic, strong) UIButton * btn;
+@property (nonatomic, strong) UILabel * titleLable;
 @end
 
 @implementation HTAlerView
@@ -19,6 +20,7 @@
     self  = [super initWithFrame:frame];
     if (self) {
         [self addSubview:self.btn];
+        [self addSubview:self.titleLable];
     }
     return self;
 }
@@ -31,6 +33,10 @@
     NSLog(@"%@", [UIViewController currentViewController]);
 }
 
+- (void)setSortNum:(NSInteger)sortNum{
+    self.titleLable.text = [NSString stringWithFormat:@"%@",@(sortNum)];
+}
+
 #pragma mark - <getter>
 
 - (UIButton *)btn{
@@ -40,5 +46,13 @@
         [_btn addTarget:self action:@selector(clickAt:) forControlEvents:UIControlEventTouchUpInside];
     }
     return  _btn;
+}
+
+- (UILabel *)titleLable{
+    if (!_titleLable) {
+        _titleLable = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 40)];
+        _titleLable.textColor = [UIColor blackColor];
+    }
+    return  _titleLable;
 }
 @end

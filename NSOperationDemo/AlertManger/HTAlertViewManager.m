@@ -7,7 +7,7 @@
 
 #import "HTAlertViewManager.h"
 #import "HTAlerViewOperation.h"
-
+#import "UIView+ShowAnimation.h"
 @interface HTAlertViewManager ()
 @property (nonatomic, strong) NSOperationQueue * alertQueue;//弹框队列
 @end
@@ -55,7 +55,20 @@
     }
     HTAlerViewOperation * operation = [[HTAlerViewOperation alloc] initWithView:alertView queuePriority:operationPriority];
     operation.identifyID = identify;
-    
+    //找出当前显示的AlertView
+    NSPredicate * predicate = [NSPredicate predicateWithFormat:@"isExecuting == %@",@YES];
+    NSArray * findResult = [[HTAlertViewManager sharedManager].alertQueue.operations filteredArrayUsingPredicate:predicate];
+    if (findResult&&findResult.count>0) {
+        HTAlerViewOperation * excutingOperation = findResult.firstObject;
+        //如果当前的优先级小于需要添加的，则将当前的视图关闭，并重新添加到队列中
+        if (excutingOperation.queuePriority < operation.queuePriority) {
+            [excutingOperation.view hiddenView];
+            HTAlerViewOperation * newOperation = [[HTAlerViewOperation alloc] initWithView:excutingOperation.view queuePriority:excutingOperation.queuePriority];
+            newOperation.identifyID = excutingOperation.identifyID;
+            [[HTAlertViewManager sharedManager].alertQueue addOperation:newOperation];
+        }
+    }
+    //找出identify相同的，则不需要添加到队列中
     if (identify.length>0) {
         NSPredicate * predicate = [NSPredicate predicateWithFormat:@"identifyID == %@",identify];
         NSArray * result = [[HTAlertViewManager sharedManager].alertQueue.operations filteredArrayUsingPredicate:predicate];
