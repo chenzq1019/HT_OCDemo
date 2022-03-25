@@ -32,14 +32,8 @@
 //    self.mTableView.contentInset = UIEdgeInsetsMake(45, 0, 0, 0);
 //    self.navigationItem.searchController = self.mSearchController;
     self.mTableView.tableHeaderView = self.mSearchController.searchBar;
-    
-//    self.navigationItem.titleView = self.mSearchController.searchBar;
-//    self.navigationController.hidesBarsOnSwipe = YES;
 }
-- (void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-    [self.navigationController setNavigationBarHidden:NO animated:animated];
-}
+
 
 #pragma mark - <dataSource and Delegate>
 

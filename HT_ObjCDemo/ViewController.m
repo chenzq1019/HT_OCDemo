@@ -11,6 +11,8 @@
 #import "HT_LoginProtocolVC.h"
 #import "HT_CollectionViewController.h"
 #import "TestOneVC.h"
+#import "TestInstanceVC.h"
+#import "HT_StacViewVC.h"
 @interface ViewController ()< UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView * mTableView;
 @property (nonatomic, strong) NSMutableArray * mdataArray;
@@ -32,7 +34,7 @@
 }
 
 - (void)loadData{
-    _mdataArray = [@[@"发送短信",@"富文本可点击",@"UICollectionView分组背景颜色",@"获取当前VC"] mutableCopy];
+    _mdataArray = [@[@"发送短信",@"富文本可点击",@"UICollectionView分组背景颜色",@"获取当前VC",@"单例",@"StackView"] mutableCopy];
 }
 
 
@@ -68,6 +70,16 @@
         case 3:{
             TestOneVC * vc = [[TestOneVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
+        }
+        case 4:{
+            TestInstanceVC * vc = [[TestInstanceVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 5:{
+            HT_StacViewVC * vc = [[HT_StacViewVC alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
         }
         default:
             break;

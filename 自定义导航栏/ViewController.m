@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "UIViewController+NaviExtension.h"
 #import "TwoViewController.h"
+#import <UINavigationController+FDFullscreenPopGesture.h>
 
 @interface ViewController ()
 
@@ -23,12 +24,17 @@
     self.ht_titleColor =  UIColor.blueColor;
     self.view.backgroundColor = UIColor.orangeColor;
     
-    UIButton * rightBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+    
+    UIButton * rightBtn = [[UIButton alloc] initWithFrame:CGRectMake(10, 100, 40, 40)];
     [rightBtn setTitle:@"扫一扫" forState:UIControlStateNormal];
     [rightBtn addTarget:self action:@selector(rightClick:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
-    self.navigationItem.rightBarButtonItem = item;
+    [self.view addSubview:rightBtn];
+    self.fd_prefersNavigationBarHidden = NO;
 }
+
+
+
 
 - (void)rightClick:(id)sender{
     TwoViewController * twoVC = [[TwoViewController alloc] init];
