@@ -29,6 +29,16 @@
 		DF17F73A268F1D5D00871C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF17F739268F1D5D00871C13 /* Assets.xcassets */; };
 		DF17F73D268F1D5D00871C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF17F73B268F1D5D00871C13 /* LaunchScreen.storyboard */; };
 		DF17F740268F1D5D00871C13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF17F73F268F1D5D00871C13 /* main.m */; };
+		DF2EBC17285B079300B54ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2EBC16285B079300B54ADB /* AppDelegate.m */; };
+		DF2EBC1A285B079300B54ADB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2EBC19285B079300B54ADB /* SceneDelegate.m */; };
+		DF2EBC1D285B079300B54ADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2EBC1C285B079300B54ADB /* ViewController.m */; };
+		DF2EBC20285B079300B54ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2EBC1E285B079300B54ADB /* Main.storyboard */; };
+		DF2EBC22285B079500B54ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2EBC21285B079500B54ADB /* Assets.xcassets */; };
+		DF2EBC25285B079500B54ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2EBC23285B079500B54ADB /* LaunchScreen.storyboard */; };
+		DF2EBC28285B079500B54ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2EBC27285B079500B54ADB /* main.m */; };
+		DF2EBC2F285B07C300B54ADB /* HTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2EBC2E285B07C300B54ADB /* HTMediator.m */; };
+		DF2EBC35285B086700B54ADB /* ModuleAServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2EBC34285B086700B54ADB /* ModuleAServer.m */; };
+		DF2EBC39285B090400B54ADB /* ModuleBServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2EBC38285B090400B54ADB /* ModuleBServer.m */; };
 		DF462EC2277D7A0C00962D20 /* HT_StacViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF462EC1277D7A0C00962D20 /* HT_StacViewVC.m */; };
 		DF5F2B672599DEFA00FD6E1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F2B662599DEFA00FD6E1C /* AppDelegate.m */; };
 		DF5F2B6A2599DEFA00FD6E1C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F2B692599DEFA00FD6E1C /* SceneDelegate.m */; };
@@ -243,6 +253,26 @@
 		DF17F73C268F1D5D00871C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF17F73E268F1D5D00871C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF17F73F268F1D5D00871C13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF2EBC13285B079300B54ADB /* Protocol-Class 组件化通行方案.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protocol-Class 组件化通行方案.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2EBC15285B079300B54ADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF2EBC16285B079300B54ADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF2EBC18285B079300B54ADB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DF2EBC19285B079300B54ADB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DF2EBC1B285B079300B54ADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF2EBC1C285B079300B54ADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF2EBC1F285B079300B54ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF2EBC21285B079500B54ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2EBC24285B079500B54ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF2EBC26285B079500B54ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2EBC27285B079500B54ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF2EBC2D285B07C300B54ADB /* HTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMediator.h; sourceTree = "<group>"; };
+		DF2EBC2E285B07C300B54ADB /* HTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMediator.m; sourceTree = "<group>"; };
+		DF2EBC32285B084D00B54ADB /* ModuleAProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAProtocol.h; sourceTree = "<group>"; };
+		DF2EBC33285B086700B54ADB /* ModuleAServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAServer.h; sourceTree = "<group>"; };
+		DF2EBC34285B086700B54ADB /* ModuleAServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAServer.m; sourceTree = "<group>"; };
+		DF2EBC36285B08CE00B54ADB /* ModuleBProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBProtocol.h; sourceTree = "<group>"; };
+		DF2EBC37285B090400B54ADB /* ModuleBServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleBServer.h; sourceTree = "<group>"; };
+		DF2EBC38285B090400B54ADB /* ModuleBServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBServer.m; sourceTree = "<group>"; };
 		DF462EC0277D7A0C00962D20 /* HT_StacViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HT_StacViewVC.h; sourceTree = "<group>"; };
 		DF462EC1277D7A0C00962D20 /* HT_StacViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HT_StacViewVC.m; sourceTree = "<group>"; };
 		DF5F2B622599DEFA00FD6E1C /* HT_ObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HT_ObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -497,6 +527,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF2EBC10285B079300B54ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF5F2B5F2599DEFA00FD6E1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -701,6 +738,56 @@
 			path = "电影院选座";
 			sourceTree = "<group>";
 		};
+		DF2EBC14285B079300B54ADB /* Protocol-Class 组件化通行方案 */ = {
+			isa = PBXGroup;
+			children = (
+				DF2EBC31285B082F00B54ADB /* ModuleB */,
+				DF2EBC30285B082200B54ADB /* ModuleA */,
+				DF2EBC2C285B07AB00B54ADB /* Mediator */,
+				DF2EBC15285B079300B54ADB /* AppDelegate.h */,
+				DF2EBC16285B079300B54ADB /* AppDelegate.m */,
+				DF2EBC18285B079300B54ADB /* SceneDelegate.h */,
+				DF2EBC19285B079300B54ADB /* SceneDelegate.m */,
+				DF2EBC1B285B079300B54ADB /* ViewController.h */,
+				DF2EBC1C285B079300B54ADB /* ViewController.m */,
+				DF2EBC1E285B079300B54ADB /* Main.storyboard */,
+				DF2EBC21285B079500B54ADB /* Assets.xcassets */,
+				DF2EBC23285B079500B54ADB /* LaunchScreen.storyboard */,
+				DF2EBC26285B079500B54ADB /* Info.plist */,
+				DF2EBC27285B079500B54ADB /* main.m */,
+			);
+			path = "Protocol-Class 组件化通行方案";
+			sourceTree = "<group>";
+		};
+		DF2EBC2C285B07AB00B54ADB /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				DF2EBC2D285B07C300B54ADB /* HTMediator.h */,
+				DF2EBC2E285B07C300B54ADB /* HTMediator.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		DF2EBC30285B082200B54ADB /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				DF2EBC32285B084D00B54ADB /* ModuleAProtocol.h */,
+				DF2EBC33285B086700B54ADB /* ModuleAServer.h */,
+				DF2EBC34285B086700B54ADB /* ModuleAServer.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		DF2EBC31285B082F00B54ADB /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				DF2EBC36285B08CE00B54ADB /* ModuleBProtocol.h */,
+				DF2EBC37285B090400B54ADB /* ModuleBServer.h */,
+				DF2EBC38285B090400B54ADB /* ModuleBServer.m */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
 		DF462EBF277D79DF00962D20 /* StackView */ = {
 			isa = PBXGroup;
 			children = (
@@ -726,6 +813,7 @@
 				DF9146912713CF5D00987B21 /* 自定义导航栏 */,
 				DF77D501275E1047005FE5A7 /* 视频录制 */,
 				DF71432327674B4B0064D11E /* 页面灰度处理（为悼念日准备） */,
+				DF2EBC14285B079300B54ADB /* Protocol-Class 组件化通行方案 */,
 				DF5F2B632599DEFA00FD6E1C /* Products */,
 				7A724A28B92C479F3E7D28DF /* Pods */,
 				9766F14CB9B558B94A2E3B09 /* Frameworks */,
@@ -748,6 +836,7 @@
 				DF9146902713CF5D00987B21 /* 自定义导航栏.app */,
 				DF77D500275E1047005FE5A7 /* 视频录制.app */,
 				DF71432227674B4B0064D11E /* 页面灰度处理（为悼念日准备）.app */,
+				DF2EBC13285B079300B54ADB /* Protocol-Class 组件化通行方案.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1219,6 +1308,23 @@
 			productReference = DF17F72B268F1D5C00871C13 /* 电影院选座.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DF2EBC12285B079300B54ADB /* Protocol-Class 组件化通行方案 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2EBC2B285B079500B54ADB /* Build configuration list for PBXNativeTarget "Protocol-Class 组件化通行方案" */;
+			buildPhases = (
+				DF2EBC0F285B079300B54ADB /* Sources */,
+				DF2EBC10285B079300B54ADB /* Frameworks */,
+				DF2EBC11285B079300B54ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Protocol-Class 组件化通行方案";
+			productName = "Protocol-Class 组件化通行方案";
+			productReference = DF2EBC13285B079300B54ADB /* Protocol-Class 组件化通行方案.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DF5F2B612599DEFA00FD6E1C /* HT_ObjCDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF5F2B7B2599DEFC00FD6E1C /* Build configuration list for PBXNativeTarget "HT_ObjCDemo" */;
@@ -1446,6 +1552,9 @@
 					DF17F72A268F1D5C00871C13 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					DF2EBC12285B079300B54ADB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					DF5F2B612599DEFA00FD6E1C = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -1510,6 +1619,7 @@
 				DF91468F2713CF5D00987B21 /* 自定义导航栏 */,
 				DF77D4FF275E1047005FE5A7 /* 视频录制 */,
 				DF71432127674B4B0064D11E /* 页面灰度处理（为悼念日准备） */,
+				DF2EBC12285B079300B54ADB /* Protocol-Class 组件化通行方案 */,
 			);
 		};
 /* End PBXProject section */
@@ -1527,6 +1637,16 @@
 				DF8AF539269EAE6200CC6F4A /* seats 4.plist in Resources */,
 				DF17F738268F1D5C00871C13 /* Main.storyboard in Resources */,
 				DF8AF537269EAE6200CC6F4A /* seats 0.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2EBC11285B079300B54ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2EBC25285B079500B54ADB /* LaunchScreen.storyboard in Resources */,
+				DF2EBC22285B079500B54ADB /* Assets.xcassets in Resources */,
+				DF2EBC20285B079300B54ADB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1926,6 +2046,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF2EBC0F285B079300B54ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2EBC35285B086700B54ADB /* ModuleAServer.m in Sources */,
+				DF2EBC1D285B079300B54ADB /* ViewController.m in Sources */,
+				DF2EBC17285B079300B54ADB /* AppDelegate.m in Sources */,
+				DF2EBC28285B079500B54ADB /* main.m in Sources */,
+				DF2EBC39285B090400B54ADB /* ModuleBServer.m in Sources */,
+				DF2EBC1A285B079300B54ADB /* SceneDelegate.m in Sources */,
+				DF2EBC2F285B07C300B54ADB /* HTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF5F2B5E2599DEFA00FD6E1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2122,6 +2256,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				DF17F73C268F1D5D00871C13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2EBC1E285B079300B54ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2EBC1F285B079300B54ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2EBC23285B079500B54ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2EBC24285B079500B54ADB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2341,6 +2491,64 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF2EBC29285B079500B54ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 475QH33KPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Protocol-Class 组件化通行方案/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.Protocol-Class--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF2EBC2A285B079500B54ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 475QH33KPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Protocol-Class 组件化通行方案/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uleapp.Protocol-Class--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2959,6 +3167,15 @@
 			buildConfigurations = (
 				DF17F741268F1D5D00871C13 /* Debug */,
 				DF17F742268F1D5D00871C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2EBC2B285B079500B54ADB /* Build configuration list for PBXNativeTarget "Protocol-Class 组件化通行方案" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2EBC29285B079500B54ADB /* Debug */,
+				DF2EBC2A285B079500B54ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -22,6 +22,11 @@
     [btn setTitleColor:UIColor.redColor forState:UIControlStateNormal];
     [self.view addSubview:btn];
     
+    UILabel * title = [[UILabel alloc] initWithFrame:CGRectMake(220, 100, 100, 40)];
+    title.textColor = [UIColor blackColor];
+    title.text = @"我的颜色是黑色";
+    [self.view addSubview:title];
+    
     UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 200, 100, 100)];
     imageView.image = [UIImage imageNamed:@"background_update_top"];
     [self.view addSubview:imageView];
