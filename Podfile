@@ -68,4 +68,17 @@ target '谓词Demo' do
 end
 
 
-target ''
+target '自定义导航栏' do
+  use_frameworks!
+pod "FDFullscreenPopGesture"
+end
+
+target '仿京东首页导航栏' do
+  use_frameworks!
+  pod "Masonry"
+end
+
+target '页面灰度处理（为悼念日准备）'do
+  use_frameworks!
+  pod 'SDWebImage'
+end

@@ -17,7 +17,11 @@
 @end
 
 @implementation ViewController
+- (IBAction)presentClick:(id)sender {
+}
 
+- (IBAction)prensentBtnClick:(id)sender {
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

@@ -1,0 +1,34 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.4.1)
+  - SDWebImage (5.14.2):
+    - SDWebImage/Core (= 5.14.2)
+  - SDWebImage/Core (5.14.2)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - FDFullscreenPopGesture
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  SDWebImage: b9a731e1d6307f44ca703b3976d18c24ca561e84
+
+PODFILE CHECKSUM: ac6160749d2379847fb3fecfbcd53305aae1a863
+
+COCOAPODS: 1.10.1

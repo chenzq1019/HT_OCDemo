@@ -6,7 +6,8 @@
 //
 
 #import "ViewController.h"
-
+#import "SDAnimatedImageView.h"
+#import <SDWebImage/SDWebImage.h>
 @interface ViewController ()
 
 @end
@@ -27,9 +28,17 @@
     title.text = @"我的颜色是黑色";
     [self.view addSubview:title];
     
-    UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 200, 100, 100)];
-    imageView.image = [UIImage imageNamed:@"background_update_top"];
-    [self.view addSubview:imageView];
+//    UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 200, 100, 100)];
+//    imageView.image = [UIImage imageNamed:@"background_update_top"];
+//    [self.view addSubview:imageView];
+    
+    //@"https://pic.ulecdn.com/pic/user_1655187885120/product/prd20221128/afcb4c83893a631e_p750x200.gif"
+    
+    SDAnimatedImageView * imageViewGif = [[SDAnimatedImageView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 200)];
+    [imageViewGif sd_setImageWithURL:[NSURL URLWithString:@"https://pic.ulecdn.com/pic/user_1655187885120/product/prd20221018/4cd2dd4a9d93d557_p750x200.gif"] placeholderImage:nil];
+    [self.view addSubview:imageViewGif];
+    
+
 }
 
 
